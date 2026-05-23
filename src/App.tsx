@@ -1,54 +1,12 @@
 import { useState } from 'react'
 import './App.css'
+import questions from './questions.json'
 
 type Question = {
   question: string
   options: string[]
   correctIndex: number
 }
-
-const questions: Question[] = [
-  {
-    question: 'What is the capital of France?',
-    options: ['Berlin', 'Paris', 'Rome'],
-    correctIndex: 1,
-  },
-  {
-    question: 'Which planet is known as the Red Planet?',
-    options: ['Mars', 'Venus', 'Jupiter'],
-    correctIndex: 0,
-  },
-  {
-    question: 'What is 5 + 3?',
-    options: ['6', '8', '10'],
-    correctIndex: 1,
-  },
-  {
-    question: 'Which language runs in a web browser?',
-    options: ['Python', 'C++', 'JavaScript'],
-    correctIndex: 2,
-  },
-  {
-    question: 'What is the largest ocean on Earth?',
-    options: ['Atlantic Ocean', 'Indian Ocean', 'Pacific Ocean'],
-    correctIndex: 2,
-  },
-  {
-    question: 'Which company created React?',
-    options: ['Google', 'Facebook', 'Microsoft'],
-    correctIndex: 1,
-  },
-  {
-    question: 'What is the boiling point of water at sea level?',
-    options: ['100°C', '90°C', '120°C'],
-    correctIndex: 0,
-  },
-  {
-    question: 'Which animal is known as the King of the Jungle?',
-    options: ['Elephant', 'Lion', 'Tiger'],
-    correctIndex: 1,
-  },
-];
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
