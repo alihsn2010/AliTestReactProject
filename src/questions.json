@@ -1,52 +1,52 @@
 [
   {
-    "question": "Which country won the FIFA World Cup in 2018?",
-    "options": ["France", "Germany", "Brazil"],
+    "question": "In which month do Muslims fast in Ramadan?",
+    "options": ["Ramadan", "January", "December"],
     "correctIndex": 0
   },
   {
-    "question": "Which country hosted the FIFA World Cup 2022?",
-    "options": ["Qatar", "Russia", "Brazil"],
-    "correctIndex": 0
-  },
-  {
-    "question": "How many players are on the field for one football team in a World Cup match?",
-    "options": ["9", "10", "11"],
-    "correctIndex": 2
-  },
-  {
-    "question": "Which country has won the most FIFA World Cups?",
-    "options": ["Brazil", "Germany", "Argentina"],
-    "correctIndex": 0
-  },
-  {
-    "question": "Which trophy is awarded to the FIFA World Cup winner?",
-    "options": ["Golden Boot", "FIFA World Cup Trophy", "UEFA Cup"],
+    "question": "What do we call the meal before fasting starts?",
+    "options": ["Breakfast", "Suhoor", "Dinner"],
     "correctIndex": 1
   },
   {
-    "question": "How often is the FIFA World Cup held?",
-    "options": ["Every 2 years", "Every 4 years", "Every 5 years"],
+    "question": "What do we call breaking the fast in the evening?",
+    "options": ["Lunch", "Iftar", "Snack time"],
     "correctIndex": 1
   },
   {
-    "question": "Which continent hosted the first FIFA World Cup?",
-    "options": ["Europe", "South America", "Asia"],
+    "question": "What do Muslims read in Ramadan?",
+    "options": ["Story books", "Quran", "Comics"],
     "correctIndex": 1
   },
   {
-    "question": "Which country won the first FIFA World Cup in 1930?",
-    "options": ["Uruguay", "Italy", "Argentina"],
+    "question": "What special night is very important in Ramadan?",
+    "options": ["Birthday night", "Laylat al-Qadr", "New Year night"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Why do Muslims fast in Ramadan?",
+    "options": ["To play games", "To obey Allah", "To watch TV"],
+    "correctIndex": 1
+  },
+  {
+    "question": "What do people say when they break fast?",
+    "options": ["Good night", "Alhamdulillah", "Hello"],
+    "correctIndex": 1
+  },
+  {
+    "question": "What do Muslims drink to break fast first?",
+    "options": ["Water", "Juice", "Milkshake"],
     "correctIndex": 0
   },
   {
-    "question": "How many teams play in the FIFA World Cup finals tournament (modern format)?",
-    "options": ["32", "24", "16"],
-    "correctIndex": 0
+    "question": "What time do Muslims stop eating in the morning?",
+    "options": ["Sunset", "Fajr (dawn)", "Afternoon"],
+    "correctIndex": 1
   },
   {
-    "question": "Which sport is played in the FIFA World Cup?",
-    "options": ["Basketball", "Football (Soccer)", "Cricket"],
+    "question": "How many days is Ramadan usually?",
+    "options": ["10 days", "29 or 30 days", "100 days"],
     "correctIndex": 1
   }
 ]

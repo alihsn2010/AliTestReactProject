@@ -9,14 +9,11 @@ type Question = {
 }
 
 const questions: Question[] = questionsData as Question[]
-const ADMIN_USER = 'admin'
-const ADMIN_PASS = 'admin'
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
-  const [username, setUsername] = useState('')
-  const [password, setPassword] = useState('')
-  const [loginError, setLoginError] = useState('')
+  const [userName, setUserName] = useState('')
+  const [userEmail, setUserEmail] = useState('')
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [selectedOption, setSelectedOption] = useState<number | null>(null)
   const [score, setScore] = useState(0)
@@ -24,14 +21,9 @@ function App() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
-    setLoginError('')
 
-    if (username === ADMIN_USER && password === ADMIN_PASS) {
+    if (userName.trim() && userEmail.trim()) {
       setIsAuthenticated(true)
-      setUsername('')
-      setPassword('')
-    } else {
-      setLoginError('Invalid username or password')
     }
   }
 
@@ -40,33 +32,34 @@ function App() {
       <div className="app-shell">
         <div className="quiz-container">
           <div className="login-card">
-            <h1 className="login-title">Quiz Login</h1>
+            <h1 className="login-title">Start Quiz</h1>
             <form onSubmit={handleLogin} className="login-form">
               <div className="form-group">
-                <label htmlFor="username">Username</label>
+                <label htmlFor="name">Name</label>
                 <input
-                  id="username"
+                  id="name"
                   type="text"
                   className="form-input"
-                  placeholder="admin"
-                  value={username}
-                  onChange={(e) => setUsername(e.target.value)}
+                  placeholder="Enter your name"
+                  value={userName}
+                  onChange={(e) => setUserName(e.target.value)}
+                  required
                 />
               </div>
               <div className="form-group">
-                <label htmlFor="password">Password</label>
+                <label htmlFor="email">Email</label>
                 <input
-                  id="password"
-                  type="password"
+                  id="email"
+                  type="email"
                   className="form-input"
-                  placeholder="admin"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Enter your email"
+                  value={userEmail}
+                  onChange={(e) => setUserEmail(e.target.value)}
+                  required
                 />
               </div>
-              {loginError && <p className="error-message">{loginError}</p>}
               <button type="submit" className="login-button">
-                Login
+                Start Quiz
               </button>
             </form>
           </div>
@@ -109,6 +102,8 @@ function App() {
 
   const handleLogout = () => {
     setIsAuthenticated(false)
+    setUserName('')
+    setUserEmail('')
     setCurrentQuestion(0)
     setSelectedOption(null)
     setScore(0)
@@ -119,7 +114,7 @@ function App() {
     <div className="app-shell">
       <div className="quiz-container">
         <button className="logout-button" onClick={handleLogout}>
-          Logout
+          Start Over
         </button>
         {showResult ? (
           <div className="result-card">
@@ -134,6 +129,7 @@ function App() {
           </div>
         ) : (
           <div className="quiz-card">
+            <p className="welcome-message">Welcome {userName}</p>
             <div className="quiz-meta">
               Question {currentQuestion + 1} of {questions.length}
             </div>

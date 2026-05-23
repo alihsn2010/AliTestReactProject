@@ -118,6 +118,13 @@
   margin-bottom: 14px;
 }
 
+.welcome-message {
+  font-size: 1.3rem;
+  color: #4f46e5;
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
 .quiz-question {
   font-size: clamp(1.8rem, 2.2vw, 2.4rem);
   line-height: 1.05;
