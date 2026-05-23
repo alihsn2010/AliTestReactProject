@@ -32,8 +32,8 @@
   font-size: clamp(1.8rem, 2.2vw, 2.4rem);
   line-height: 1.05;
   margin: 0;
-  color: #0f172a;
-  font-family: 'Brush Script MT', cursive;
+  color: #0c4ee9;
+  font-family: 'Ariel', cursive;
 }
 
 .options {
