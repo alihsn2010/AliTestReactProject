@@ -1,12 +1,15 @@
 import { useState } from 'react'
+import questionsData from './questions.json'
 import './App.css'
-import questions from './questions.json'
 
 type Question = {
   question: string
   options: string[]
   correctIndex: number
 }
+
+const questions: Question[] = questionsData as Question[]
+
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0)
