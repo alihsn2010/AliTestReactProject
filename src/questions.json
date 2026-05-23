@@ -1,42 +1,52 @@
 [
   {
-    "question": "What is the capital of France?",
-    "options": ["Berlin", "Paris", "Rome"],
-    "correctIndex": 1
-  },
-  {
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["Mars", "Venus", "Jupiter"],
+    "question": "Which country won the FIFA World Cup in 2018?",
+    "options": ["France", "Germany", "Brazil"],
     "correctIndex": 0
   },
   {
-    "question": "What is 5 + 3?",
-    "options": ["6", "8", "10"],
-    "correctIndex": 1
-  },
-  {
-    "question": "Which language runs in a web browser?",
-    "options": ["Python", "C++", "JavaScript"],
-    "correctIndex": 2
-  },
-  {
-    "question": "What is the largest ocean on Earth?",
-    "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
-    "correctIndex": 2
-  },
-  {
-    "question": "Which company created React?",
-    "options": ["Google", "Facebook", "Microsoft"],
-    "correctIndex": 1
-  },
-  {
-    "question": "What is the boiling point of water at sea level?",
-    "options": ["100°C", "90°C", "120°C"],
+    "question": "Which country hosted the FIFA World Cup 2022?",
+    "options": ["Qatar", "Russia", "Brazil"],
     "correctIndex": 0
   },
   {
-    "question": "Which animal is known as the King of the Jungle?",
-    "options": ["Elephant", "Lion", "Tiger"],
+    "question": "How many players are on the field for one football team in a World Cup match?",
+    "options": ["9", "10", "11"],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which country has won the most FIFA World Cups?",
+    "options": ["Brazil", "Germany", "Argentina"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which trophy is awarded to the FIFA World Cup winner?",
+    "options": ["Golden Boot", "FIFA World Cup Trophy", "UEFA Cup"],
+    "correctIndex": 1
+  },
+  {
+    "question": "How often is the FIFA World Cup held?",
+    "options": ["Every 2 years", "Every 4 years", "Every 5 years"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which continent hosted the first FIFA World Cup?",
+    "options": ["Europe", "South America", "Asia"],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which country won the first FIFA World Cup in 1930?",
+    "options": ["Uruguay", "Italy", "Argentina"],
+    "correctIndex": 0
+  },
+  {
+    "question": "How many teams play in the FIFA World Cup finals tournament (modern format)?",
+    "options": ["32", "24", "16"],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which sport is played in the FIFA World Cup?",
+    "options": ["Basketball", "Football (Soccer)", "Cricket"],
     "correctIndex": 1
   }
 ]
